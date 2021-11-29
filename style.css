@@ -157,7 +157,6 @@ h1 {
 .container {
   width: 600px;
   margin: auto;
-  padding: 20px;
   position: relative;
 }
 .area-computer {
@@ -344,16 +343,16 @@ img {
       6.2231745931px 6.2231745931px 0 #aaaaaa;
   }
   .container {
-    width: 300px;
-    padding: 10px;
+    border: 1px solid green;
+    width: 100%;
   }
   .area-computer {
-    width: 280px;
+    width: 300px;
     height: 150px;
     padding-top: 20px;
   }
   .area-player {
-    width: 280px;
+    width: 300px;
     height: 150px;
     margin: 2.5px auto;
   }
@@ -423,6 +422,7 @@ img {
       -0.5px -0.5px 0 #333, -0.5px 0.5px 0 #333, 0.5px -0.5px 0 #333;
   }
   .overlay {
+    border: 1px solid red;
     font-size: 50px;
     text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333,
       -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,
