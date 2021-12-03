@@ -129,7 +129,7 @@ table {
 body {
   background-image: url(gambar/bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 1000px;
   font-family: arial;
 }
 h1 {
@@ -155,7 +155,7 @@ h1 {
     7.7781745931px 7.7781745931px 0 #aaaaaa;
 }
 .container {
-  width: 600px;
+  width: 100%;
   margin: auto;
   position: relative;
 }
@@ -341,9 +341,6 @@ img {
       4.7775396744px 4.7775396744px 0 #aaaaaa,
       5.5553571337px 5.5553571337px 0 #aaaaaa,
       6.2231745931px 6.2231745931px 0 #aaaaaa;
-  }
-  .container {
-    width: 100%;
   }
   .area-computer {
     width: 300px;
